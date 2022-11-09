@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #3498DB;
+}
+.wrapper{
+    background: #fff;
+    max-width: 410px;
+    border-radius: 7px;
+    padding: 16px 25px;
+}
+.wrapper .form{
+    margin: 20px 0 30px;
+}
+
+.form :where(input,button) {
+    width: 100%;
+    height: 45px;    
+    border-radius: 5px;
+    border: 1px solid #999
+}
+.form button{
+    background: #3498DB;
+    border: none;
+    outline: none;
+    margin-top: 17px;
+}
